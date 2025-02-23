@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 import Counter from "./counter";
+
 const orderSchema = new mongoose.Schema({
   orderId: {
     type: String,
